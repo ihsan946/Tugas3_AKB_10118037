@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_atas_halaman1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white3"
+    android:orientation="vertical"
+    tools:context=".Halaman1Activity">
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:src="@drawable/ic_get_start_timitory"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/teks1_halaman1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monitory Membantu Anda"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black3"
+        />
+    <TextView
+        android:id="@+id/teks2_halaman1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/teks1_halaman1"
+        android:text="Mengontrol HP Anak"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black3"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_bawah_halaman1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_mulai"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Mulai"
+            android:textStyle="bold"
+            android:textColor="@color/black3"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
