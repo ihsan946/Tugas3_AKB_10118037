@@ -53,8 +53,10 @@
         android:paddingLeft="140dp"
         android:textColor="@color/black3"
         android:textStyle="bold"
+        android:textAlignment="textStart"
         android:fontFamily="@font/rubik_regular"
         android:textAllCaps="true"
+        android:maxLength="6"
         />
     <TextView
         android:id="@+id/teks4_login"
@@ -126,6 +128,7 @@
         android:textSize="@dimen/sp18"
         android:layout_marginLeft="@dimen/dimen30"
         android:layout_marginRight="@dimen/dimen30"
+        android:onClick="pindahBiodata"
         />
     <RelativeLayout
         android:id="@+id/layout_bawah_login"
