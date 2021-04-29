@@ -1,3 +1,10 @@
+
+//NIM : 10118037
+//Nama : Muhammad Ihsan
+//Kelas : IF-1/S1/VI
+//Dibuat : 29 April 2021
+//Copyright 2021
+
 package com.app.ihsan946.tugas3akb;
 
 import androidx.appcompat.app.AppCompatActivity;

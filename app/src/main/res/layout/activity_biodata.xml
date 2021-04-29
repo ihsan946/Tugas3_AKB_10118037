@@ -54,17 +54,18 @@
 
     <Button
         android:id="@+id/btn_selanjutnya"
-        android:layout_width="match_parent"
+        android:layout_width="176dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/dimen30"
+        android:layout_marginLeft="@dimen/dimen110"
+        android:layout_marginRight="@dimen/dimen110"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/btn_mulai"
-        android:textAllCaps="false"
-        android:text="Selanjutnya"
         android:fontFamily="@font/nunito_bold"
+        android:text="Selanjutnya"
+        android:textAllCaps="false"
         android:textColor="@color/black3"
+        android:onClick="pindahMain"
         />
 
 

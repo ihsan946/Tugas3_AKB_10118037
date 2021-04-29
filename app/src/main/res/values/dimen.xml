@@ -6,6 +6,7 @@
     <dimen name="dimen50">50dp</dimen>
     <dimen name="dimen60">60dp</dimen>
     <dimen name="dimen70">70dp</dimen>
+    <dimen name="dimen110">110dp</dimen>
     <dimen name="dimen220">220dp</dimen>
     <dimen name="dimen360">360dp</dimen>
 
